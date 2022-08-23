@@ -1,12 +1,9 @@
-import { Container } from "./components/styles/Container.style";
-
+import Header from "./components/Header.js";
 function App() {
   return (
-    <div>
-      <Container>
-
-      </Container>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
