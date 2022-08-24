@@ -21,7 +21,9 @@ export const HeaderStyle = styled.div`
     position: relative;
     z-index: 100;
     h2 {
-      font-size: 1.5rem;
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: none;
       color: white;
     }
     nav {
@@ -36,7 +38,7 @@ export const HeaderStyle = styled.div`
       justify-content: center;
       align-items: center;
       text-align: center;
-      background: rgba(black, 0.8);
+      background: rgba(0,0,0, 0.3);
       backdrop-filter: blur(2px);
       transform: translate(0);
       transition: 0.3s ease transform;
@@ -50,6 +52,7 @@ export const HeaderStyle = styled.div`
       }
       ul {
         list-style: none;
+        padding: 0;
         display: flex;
         flex-direction: column;
         margin-bottom: 32px;
@@ -60,19 +63,27 @@ export const HeaderStyle = styled.div`
           margin-right: 0.5rem;
         }
         li {
-          text-decoration: none;
-          color: inherit;
-          padding: 0.75rem 1.25rem;
-          border-radius: 12px;
-          transform: 0.5 ease all;
-
-          &:hover {
-            background: rgba(white, 0.1);
-            color: green;
+          &:not(:last-child) {
+            margin-bottom: 32px;
+            @media screen and (min-width: 768px) {
+              margin-bottom: 0;
+              margin-right: 16px;
+            }
           }
-          &:active {
-            border-radius: 18px;
-            background: linear-gradient(rgba(white, 0.1), rgba(white, 0.5));
+          a {
+            text-decoration: none;
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border-radius: 12px;
+            transform: 0.5 ease all;
+
+            &:hover {
+                background: rgba(0,0,0, 0.1);
+            }
+            &:active {
+              border-radius: 18px;
+              background: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255, 0.5));
+            }
           }
         }
       }
@@ -98,6 +109,9 @@ export const HeaderStyle = styled.div`
           background: linear-gradient(rgba(red, 0.2), rgba(red, 0.3));
           color: black;
         }
+      }
+      &.isMenu {
+        transform: translate(100%);
       }
     }
     icon {
