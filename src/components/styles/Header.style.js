@@ -78,7 +78,7 @@ export const HeaderStyle = styled.div`
             transform: 0.5 ease all;
 
             &:hover {
-                background: rgba(0,0,0, 0.1);
+                background: rgba(255, 165, 0, 0.1);
             }
             &:active {
               border-radius: 18px;
@@ -101,12 +101,12 @@ export const HeaderStyle = styled.div`
 
         &:hover {
           border-color: pink;
-          background: rgba(pink, 0.1);
+          background: rgba(255, 165, 0, 0.9);
           color: white;
         }
         &:active {
           border-color: red;
-          background: linear-gradient(rgba(red, 0.2), rgba(red, 0.3));
+          background: linear-gradient(rgba(210, 210, 210, 0.2), rgba(210, 210, 210, 0.3));
           color: black;
         }
       }
