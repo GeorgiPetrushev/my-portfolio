@@ -1,4 +1,5 @@
 import React, { useState ,useEffect } from "react";
+import { Link } from "react-router-dom";
 import { HeaderStyle } from "./styles/Header.style";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -36,17 +37,17 @@ const Header = () => {
   return (
     <HeaderStyle>
       <div>
-        <h2>Georgi WebDev</h2>
+      <Link to="/"><h2>Georgi WebDev</h2></Link>
         <nav className={`${menuOpen && size.width ? "isMenu" : ""}`}>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="/">Contact me</a>
+              <Link to="/contactme">Contact me</Link>
             </li>
           </ul>
           <button>Night mode</button>
