@@ -21,7 +21,8 @@ export const HeaderStyle = styled.div`
     position: relative;
     z-index: 100;
     h2 {
-      font-size: 2rem;
+      list-style: none;
+      font-size: 2.5  rem;
       font-weight: bold;
       text-decoration: none;
       color: white;

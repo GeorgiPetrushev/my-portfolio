@@ -37,17 +37,17 @@ const Header = () => {
   return (
     <HeaderStyle>
       <div>
-      <Link to="/"><h2>Georgi WebDev</h2></Link>
+      <h2>George WebDev</h2>
         <nav className={`${menuOpen && size.width ? "isMenu" : ""}`}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={menuToggle}>Home</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects" onClick={menuToggle}>Projects</Link>
             </li>
             <li>
-              <Link to="/contactme">Contact me</Link>
+              <Link to="/contact" onClick={menuToggle}>Contact me</Link>
             </li>
           </ul>
           <button>Night mode</button>
