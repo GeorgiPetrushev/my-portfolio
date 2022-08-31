@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderStyle = styled.div`
   background-color: black;
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   padding: 0 1.5rem;
   @media screen and (min-width: 768px) {
     padding: 0 1.5rem;
