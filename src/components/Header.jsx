@@ -44,13 +44,15 @@ const Header = () => {
               <Link to="/" onClick={menuToggle}>Home</Link>
             </li>
             <li>
+              <Link to="/skills" onClick={menuToggle}>Skills</Link>
+            </li>
+            <li>
               <Link to="/projects" onClick={menuToggle}>Projects</Link>
             </li>
             <li>
               <Link to="/contact" onClick={menuToggle}>Contact me</Link>
             </li>
           </ul>
-          <button>Night mode</button>
           
         </nav>
 
