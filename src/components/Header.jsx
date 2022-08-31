@@ -37,7 +37,7 @@ const Header = () => {
   return (
     <HeaderStyle>
       <div>
-      <h2>George WebDev</h2>
+      <h2>Georgi WebDev</h2>
         <nav className={`${menuOpen && size.width ? "isMenu" : ""}`}>
           <ul>
             <li>
