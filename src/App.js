@@ -5,10 +5,12 @@ import ContactMe from "./components/ContactMe.jsx";
 import Footer from "./components/Footer.jsx";
 import Skills  from "./components/Skills.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import styled from "styled-components";
 
 function App() {
   return (
     <BrowserRouter>
+    <BodyStyle>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,8 +19,16 @@ function App() {
         <Route path="/contact" element={<ContactMe />} />
       </Routes>
       <Footer />
+      </BodyStyle>
     </BrowserRouter>
   );
 }
+
+const BodyStyle = styled.div`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+`
 
 export default App;

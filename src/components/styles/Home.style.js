@@ -13,6 +13,7 @@ export const HomeStyle = styled.div`
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1rem;
+      height: 17rem;
       width: 15rem;
       border-radius: 2rem;
     }
@@ -32,10 +33,9 @@ export const HomeStyle = styled.div`
   @media screen and (min-width: 768px) {
     display: flex;
     margin-top: 0rem;
-    min-height: 90vh;
+    min-height: 80vh;
     .left-side {
-        margin: auto;
-      background-color: red;
+      margin: auto;
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -43,7 +43,6 @@ export const HomeStyle = styled.div`
     }
 
     .right-side {
-      background-color: gray;
       margin: auto;
       width: 40%;
       p {

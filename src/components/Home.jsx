@@ -8,7 +8,7 @@ const Home = () => {
       <div className="left-side">
         <img src={profilePicture} alt="Logo" />
         <h2>Georgi Petrushev</h2>
-        <h3>Front-End Development</h3>
+        <h3>Web Developer</h3>
       </div>
       <div className="right-side">
         <p>
