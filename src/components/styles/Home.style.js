@@ -1,11 +1,55 @@
 import styled from "styled-components";
 
 export const HomeStyle = styled.div`
-  margin: 3rem auto;
-  min-height: 80vh;
-  background-color: green;
+  margin-top: 3rem;
+  .left-side {
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 50%;
+    padding: 0.2rem;
+    text-align: center;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+      width: 15rem;
+      border-radius: 2rem;
+    }
+    h2 {
+      margin-bottom: 0.3rem;
+    }
+  }
+  .right-side {
+    margin: auto;
 
-  img {
-    border-radius: 3rem;
+    margin-bottom: 3rem;
+    p {
+      width: 60%;
+      margin: auto;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-top: 0rem;
+    min-height: 90vh;
+    .left-side {
+        margin: auto;
+      background-color: red;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right-side {
+      background-color: gray;
+      margin: auto;
+      width: 40%;
+      p {
+        width: 90%;
+        margin: auto;
+      }
+    }
   }
 `;

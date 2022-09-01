@@ -17,6 +17,18 @@ const Home = () => {
           repellat facilis voluptatum natus labore accusamus quidem cum
           doloribus!
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo atque
+          iste iure ullam nihil nulla amet earum cupiditate fugit omnis nemo,
+          repellat facilis voluptatum natus labore accusamus quidem cum
+          doloribus!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo atque
+          iste iure ullam nihil nulla amet earum cupiditate fugit omnis nemo,
+          repellat facilis voluptatum natus labore accusamus quidem cum
+          doloribus!
+        </p>
       </div>
     </HomeStyle>
   );
