@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
     }
     body{
+        background: linear-gradient(to right top,#65dfc9,#6cdbeb);
         width: 100%;
         font-family: 'Poppins', sans-serif;
         color: black;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeStyle = styled.div`
-  margin-top: 3rem;
+margin-top:2rem;
   .left-side {
     margin: auto;
     margin-bottom: 3rem;
@@ -32,7 +32,7 @@ export const HomeStyle = styled.div`
   @media screen and (min-width: 768px) {
     display: flex;
     margin-top: 0rem;
-    min-height: 80vh;
+    min-height: 60vh;
     .left-side {
       margin: auto;
       width: 50%;

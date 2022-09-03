@@ -79,7 +79,8 @@ export const HeaderStyle = styled.div`
             transform: 0.5 ease all;
 
             &:hover {
-                background: rgba(255, 165, 0, 0.1);
+                background: white;
+                color: black;
             }
             &:active {
               border-radius: 18px;

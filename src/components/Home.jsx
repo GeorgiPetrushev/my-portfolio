@@ -2,8 +2,11 @@ import React from "react";
 import { HomeStyle } from "./styles/Home.style";
 import profilePicture from "../pictures/profile-pic.jpg";
 
+import Skills from "./Skills";
+
 const Home = () => {
   return (
+    <div>
     <HomeStyle className="container">
       <div className="left-side">
         <img src={profilePicture} alt="Logo" />
@@ -32,6 +35,8 @@ const Home = () => {
         </p>
       </div>
     </HomeStyle>
+    <Skills />
+    </div>
   );
 };
 

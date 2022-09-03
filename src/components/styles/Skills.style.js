@@ -1,28 +1,42 @@
 import styled from "styled-components";
 
 export const SkillsStyle = styled.div`
-  background-color: red;
-  min-height: 85vh;
-  text-align: center;
-  margin: 0 10%;
-  font-size: 1.5rem;
-  .tittle {
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+background: linear-gradient(to right bottom,rgba(255,255,254,0.5), rgba(255,255,255,0.7));
+  .tittle{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
   }
   .icon-container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1rem;
-    background-color: green;
-    @media screen and (min-width: 768px){
-        grid-template-columns: repeat(3,1fr);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 20%;
+    border-radius: 1rem;
+
     }
     h3 {
-        min-width: 10rem;
-        min-height: 5rem;
-      background-color: blue;
+      height: 60px;
+      width: 60px;
+      font-size: 1.5rem;
+      padding: 1rem;
+      background-color: white;
+      margin: 0.4rem;
+      border-radius: 50% 20% / 10% 40%;;
+      align-items: center;
+      border: 1.5px dotted black
     }
-  }
+    h2{
+      height: 60px;
+      width: 60px;
+      font-size: 1rem;
+      padding: 1rem;
+      background-color: white;
+      margin: 0.4rem;
+      border-radius: 50% 20% / 10% 40%;;
+      align-items: center;
+      border: 1.5px dotted black
+    }
+  
 `;

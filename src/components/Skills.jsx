@@ -34,8 +34,8 @@ const Skills = () => {
         <h3>
           <FaGit />
         </h3>
-        <h3>ES6</h3>
-        <h3>ES7</h3>
+        <h2>ES6</h2>
+        <h2>ES7</h2>
       </div>
     </SkillsStyle>
   );
