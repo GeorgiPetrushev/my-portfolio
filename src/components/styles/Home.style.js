@@ -13,8 +13,7 @@ export const HomeStyle = styled.div`
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1rem;
-      height: 17rem;
-      width: 15rem;
+      width: 13rem;
       border-radius: 2rem;
     }
     h2 {

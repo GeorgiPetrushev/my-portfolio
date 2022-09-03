@@ -12,10 +12,10 @@ const Home = () => {
       </div>
       <div className="right-side">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo atque
-          iste iure ullam nihil nulla amet earum cupiditate fugit omnis nemo,
-          repellat facilis voluptatum natus labore accusamus quidem cum
-          doloribus!
+          Welcome to my webpage! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quo atque iste iure ullam nihil nulla amet earum
+          cupiditate fugit omnis nemo, repellat facilis voluptatum natus labore
+          accusamus quidem cum doloribus!
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo atque
