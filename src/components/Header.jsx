@@ -22,7 +22,14 @@ const Header = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  console.log(size);
+  useEffect(() => {
+    setSize({
+      width: window.innerWidth,
+      height: window.innerHeight,
+    })
+  },[])
+  console.log(size);
   useEffect(() => {
     if (size.width > 768 && menuOpen) {
       setMenuOpen(false);
@@ -38,13 +45,10 @@ const Header = () => {
     <HeaderStyle>
       <div>
       <h2>Georgi WebDev</h2>
-        <nav className={`${menuOpen && size.width ? "isMenu" : ""}`}>
+        <nav className={`${menuOpen && size.width < 768 ? "isMenu" : ""}`}>
           <ul>
             <li>
               <Link to="/" onClick={menuToggle}>Home</Link>
-            </li>
-            <li>
-              <Link to="/skills" onClick={menuToggle}>Skills</Link>
             </li>
             <li>
               <Link to="/projects" onClick={menuToggle}>Projects</Link>
