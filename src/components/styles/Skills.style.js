@@ -14,6 +14,31 @@ background: linear-gradient(to right bottom,rgba(255,255,254,0.5), rgba(255,255,
     justify-content: center;
     margin: 1rem 20%;
     border-radius: 1rem;
+    .html{
+      color: rgb(233,89,35);
+    }
+    .css{
+      color: rgb(55,153,214);
+    }
+    .java-scrip{
+      color: rgb(239,219,78);
+    }
+    .sass{
+      color: rgb(200,105,149);
+    }
+    .react{
+      color: rgb(0,206,247);
+    }
+    .redux{
+      color:rgb(118,75,189);
+    }
+    .bootstrap{
+      color: rgb(118,75,189);
+    }
+
+    .git{
+      color: rgb(240,60,47);
+    }
 
     }
     h3 {
