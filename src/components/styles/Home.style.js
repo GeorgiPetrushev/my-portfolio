@@ -25,7 +25,7 @@ margin-top:2rem;
 
     margin-bottom: 3rem;
     p {
-      width: 60%;
+      width: 80%;
       margin: auto;
     }
   }

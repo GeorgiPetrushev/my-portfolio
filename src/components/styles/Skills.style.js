@@ -12,7 +12,7 @@ background: linear-gradient(to right bottom,rgba(255,255,254,0.5), rgba(255,255,
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem 20%;
+    margin: 1rem 5%;
     border-radius: 1rem;
     .html{
       color: rgb(233,89,35);

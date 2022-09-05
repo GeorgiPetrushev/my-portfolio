@@ -22,7 +22,9 @@ export const ContactMeStyle = styled.div`
             color: blue;
         }
     }
-
+    .container-phone-and-email{
+  
+    }
     .container-info{
         margin-top: 2rem;
     }
