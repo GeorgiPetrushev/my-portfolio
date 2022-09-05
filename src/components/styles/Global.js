@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         background: linear-gradient(to right top,#65dfc9,#6cdbeb);
         width: 100%;
         font-family: 'Poppins', sans-serif;
-        color: black;
+       
     }
     p{
         opacity: 0.6;
