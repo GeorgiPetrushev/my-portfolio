@@ -24,10 +24,10 @@ const ContactMe = () => {
         </h1>
         <div className="icon-container">
           <h1>
-            <a href="https://github.com/GeorgiPetrushev"><AiFillGithub /></a>
+            <a href="https://github.com/GeorgiPetrushev" target="_blank" rel="noreferrer"><AiFillGithub /></a>
           </h1>
           <h1>
-            <a href="https://www.linkedin.com/in/georgi-petrushev-51151821a/"><AiFillLinkedin /></a>
+            <a href="https://www.linkedin.com/in/georgi-petrushev-51151821a/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
           </h1>
         </div>
       </div>
