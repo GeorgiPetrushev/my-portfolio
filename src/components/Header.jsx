@@ -6,36 +6,22 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [size, setSize] = useState({
-    width: undefined,
-    height: undefined,
-  });
+  const [width, setWidth] = useState(window.innerWidth);
+  
+  const handleWidthChanges = (e) => {
+    setWidth(window.innerWidth)
+  }
 
   useEffect(() => {
-    const handleResize = () => {
-      setSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', handleWidthChanges);
+    return () => window.removeEventListener('resize', handleWidthChanges);
   }, []);
-  console.log(size);
+
   useEffect(() => {
-    setSize({
-      width: window.innerWidth,
-      height: window.innerHeight,
-    })
-  },[])
-  console.log(size);
-  useEffect(() => {
-    if (size.width > 768 && menuOpen) {
+    if (width > 768 && menuOpen) {
       setMenuOpen(false);
     }
-    console.log(size.width)
-  }, [size.width, menuOpen]);
+  }, [width]);
 
   const menuToggle = () => {
     setMenuOpen(!menuOpen);
@@ -45,7 +31,7 @@ const Header = () => {
     <HeaderStyle>
       <div>
       <h2>Georgi WebDev</h2>
-        <nav className={`${menuOpen && size.width < 768 ? "isMenu" : ""}`}>
+        <nav className={menuOpen ? "isMenu" : ""}>
           <ul>
             <li>
               <Link to="/" onClick={menuToggle}>Home</Link>
