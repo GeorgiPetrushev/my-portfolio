@@ -48,13 +48,13 @@ const Header = () => {
         <nav className={`${menuOpen && size.width < 768 ? "isMenu" : ""}`}>
           <ul>
             <li>
-              <Link to="/" onClick={menuToggle}>Home</Link>
+              <Link to="/my-portfolio/" onClick={menuToggle}>Home</Link>
             </li>
             <li>
-              <Link to="/projects" onClick={menuToggle}>Projects</Link>
+              <Link to="/my-portfolio/projects" onClick={menuToggle}>Projects</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={menuToggle}>Contact me</Link>
+              <Link to="/my-portfolio/contact" onClick={menuToggle}>Contact me</Link>
             </li>
           </ul>
           
