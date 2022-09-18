@@ -14,9 +14,9 @@ function App() {
     <BodyStyle>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<ContactMe />} />
+        <Route path="/my-portfolio/" element={<Home />} />
+        <Route path="/my-portfolio/projects" element={<Projects />} />
+        <Route path="/my-portfolio/contact" element={<ContactMe />} />
       </Routes>
       <Footer />
       </BodyStyle>
