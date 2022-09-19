@@ -1,16 +1,21 @@
+import { nanoid } from "nanoid";
+import imgNote from "../../pictures/take-notes.jpg"
+
 export const projectsArr = [
+  
   {
-    tittle: "Old portfolio",
-    key: 1,
-    description: "my first portfolio",
-    img: {},
-    technology: ["javascript", "html", "sass"],
-    buttonGitHub: "",
-    buttonPage: "",
+    tittle: "Take Notes",
+    key: nanoid(),
+    description: "Website for taking notes. Be abel to add, delete or search for a note. Automatically generate date on base of your local time.Option for dark mode.Mobile friendly ",
+    img: {imgNote},
+    alt: "Note Webpage",
+    technology: ["javascript", "html", "sass" ,"react"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/take-notes-app",
+    buttonPage: "https://georgipetrushev.github.io/take-notes-app/",
   },
   {
     tittle: "Old portfolio1",
-    key: 2,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -19,7 +24,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio3",
-    key: 3,
+    key:nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -28,7 +33,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio",
-    key: 4,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -37,7 +42,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio",
-    key: 5,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -46,7 +51,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio",
-    key: 5,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -55,7 +60,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio",
-    key: 5,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -64,7 +69,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio",
-    key: 5,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -73,7 +78,7 @@ export const projectsArr = [
   },
   {
     tittle: "Old portfolio",
-    key: 5,
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],
@@ -81,8 +86,8 @@ export const projectsArr = [
     buttonPage: "",
   },
   {
-    tittle: "Old portfolio",
-    key: 5,
+    tittle: "Old portfolio last",
+    key: nanoid(),
     description: "my first portfolio",
     img: {},
     technology: ["javascript", "html", "sass"],

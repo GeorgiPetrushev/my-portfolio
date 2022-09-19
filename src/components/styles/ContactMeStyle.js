@@ -22,8 +22,18 @@ export const ContactMeStyle = styled.div`
             color: blue;
         }
     }
+    p{
+        font-size: 0.7rem;
+        margin-top:0.2rem;
+        margin-bottom: 0.7rem;
+    }
     .container-phone-and-email{
-  
+        font-size: 0.5rem;
+    }
+    .line-up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .container-info{
         margin-top: 2rem;

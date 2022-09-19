@@ -14,15 +14,18 @@ const ContactMe = () => {
       <img src={contactT} alt="contact" />
       <div className="container-info">
         <div className="container-phone-and-email">
-          <h1>
+          <h1 className="line-up">
             <AiFillPhone /> <a href="tel:443-824-5866">(443) 824-5866</a>
           </h1>
-          <h1>
+          <p>Monday - Saturday  8am - 8pm EDT </p>
+          <h1 className="line-up">
             <AiOutlineMail />
             <a href="mailto: george.petrushev.bell@gmail.com">
               George.Petrushev.Bell@gmail.com
             </a>
+            
           </h1>
+          <p>24/7</p>
         </div>
         <div className="icon-container">
           <h1>

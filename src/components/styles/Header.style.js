@@ -22,7 +22,7 @@ export const HeaderStyle = styled.div`
     z-index: 100;
     h2 {
       list-style: none;
-      font-size: 2.5  rem;
+      font-size: 2.5rem;
       font-weight: bold;
       text-decoration: none;
       color: white;
