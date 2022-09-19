@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import imgNote from "../../pictures/take-notes.jpg"
+import imgForm from "../../pictures/form.jpg"
 
 export const projectsArr = [
   
@@ -14,13 +15,13 @@ export const projectsArr = [
     buttonPage: "https://georgipetrushev.github.io/take-notes-app/",
   },
   {
-    tittle: "Old portfolio1",
+    tittle: "Form",
     key: nanoid(),
-    description: "my first portfolio",
-    img: {},
+    description: "Basic From using react logic.On submit making sure all the requirement forms are fill up.",
+    img: imgForm,
     technology: ["javascript", "html", "sass"],
-    buttonGitHub: "",
-    buttonPage: "",
+    buttonGitHub: "https://github.com/GeorgiPetrushev/react-basic-forms",
+    buttonPage: "https://georgipetrushev.github.io/react-basic-forms/",
   },
   {
     tittle: "Old portfolio3",
