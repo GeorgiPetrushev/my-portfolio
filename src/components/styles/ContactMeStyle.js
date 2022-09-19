@@ -23,9 +23,9 @@ export const ContactMeStyle = styled.div`
         }
     }
     p{
-        font-size: 0.7rem;
-        margin-top:0.2rem;
-        margin-bottom: 0.7rem;
+        font-size: 0.8rem;
+        margin-top:0.1rem;
+        margin-bottom: 0.9rem;
     }
     .container-phone-and-email{
         font-size: 0.5rem;

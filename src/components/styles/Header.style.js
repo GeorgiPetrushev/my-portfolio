@@ -125,7 +125,7 @@ export const HeaderStyle = styled.div`
       position: relative;
 
       &:hover {
-        color: pink;
+        color: skyblue;
       }
 
       @media screen and (min-width: 768px) {
