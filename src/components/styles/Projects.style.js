@@ -16,12 +16,12 @@ padding-bottom: 3rem;
     @media screen and (min-width: 768px){
         grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     }
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     list-style-type: none;
 
 }
 .project{
-    padding: 0.3rem;
+    padding: 0.4rem;
     font-size: 0.8rem;
     min-height: 15rem;
     background: linear-gradient(to right bottom,rgba(255,255,254,0.5), rgba(255,255,255,0.7));
@@ -29,6 +29,7 @@ padding-bottom: 3rem;
     text-align: center;
     display: flex;
     flex-direction: column;
+    
     p{
         font-size: 1rem;
     }
@@ -44,6 +45,7 @@ padding-bottom: 3rem;
         a{
             font-size: 1.1rem;
             margin-right: 0.3rem;
+            text-decoration: none;
         }
         .project-icon{
             font-size: 1.5rem;

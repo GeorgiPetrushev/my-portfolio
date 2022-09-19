@@ -6,8 +6,8 @@ export const projectsArr = [
   {
     tittle: "Take Notes",
     key: nanoid(),
-    description: "Website for taking notes. Be abel to add, delete or search for a note. Automatically generate date on base of your local time.Option for dark mode.Mobile friendly ",
-    img: {imgNote},
+    description: "Website for taking notes. Be abel to add, delete or search for a note. Automatically generate date time base of your local time.Option for dark mode.Mobile friendly ",
+    img: imgNote,
     alt: "Note Webpage",
     technology: ["javascript", "html", "sass" ,"react"],
     buttonGitHub: "https://github.com/GeorgiPetrushev/take-notes-app",
