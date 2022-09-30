@@ -2,6 +2,7 @@ import { nanoid } from "nanoid";
 import imgNote from "../../pictures/take-notes.jpg"
 import imgForm from "../../pictures/form.jpg"
 import imgBudgetTracker from "../../pictures/budget-tracker.jpg";
+import imgLogin from "../../pictures/login.jpg";
 
 export const projectsArr = [
   {
@@ -35,13 +36,13 @@ export const projectsArr = [
     buttonPage: "https://georgipetrushev.github.io/react-basic-forms/",
   },
   {
-    tittle: "Old portfolio",
+    tittle: "Login",
     key: nanoid(),
-    description: "my first portfolio",
-    img: {},
-    technology: ["javascript", "html", "sass"],
-    buttonGitHub: "",
-    buttonPage: "",
+    description: "Basic Login from. To be abe to login successfully you need to use email: admin@gmail.com with password: admin. After successful login you get a Welcome massage whit option to log out. ",
+    img: imgLogin,
+    technology: ["javascript", "html", "sass","react"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/log-in",
+    buttonPage: "https://georgipetrushev.github.io/log-in",
   },
   {
     tittle: "Old portfolio",
