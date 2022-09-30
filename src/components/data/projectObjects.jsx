@@ -1,10 +1,21 @@
 import { nanoid } from "nanoid";
 import imgNote from "../../pictures/take-notes.jpg"
 import imgForm from "../../pictures/form.jpg"
+import imgBudgetTracker from "../../pictures/budget-tracker.jpg";
 
 export const projectsArr = [
+  {
+    tittle: "Budget Tracker",
+    key:nanoid(),
+    description: "Tracker helping you to follow your expenses. Have option to set the budget , add or remove expenses ,search for exist expense ,sum the total of your expenses and showing the remaining budget. If you cross the limit of the budget the remaining indicator will go red. Mobile friendly.",
+    img: imgBudgetTracker,
+    technology: ["javascript", "html", "sass","react"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/budget-tracker",
+    buttonPage: "https://GeorgiPetrushev.github.io/budget-tracker",
+  },
   
   {
+    
     tittle: "Take Notes",
     key: nanoid(),
     description: "Website for taking notes. Be abel to add, delete or search for a note. Automatically generate date time base of your local time.Option for dark mode.Mobile friendly ",
@@ -22,15 +33,6 @@ export const projectsArr = [
     technology: ["javascript", "html", "sass"],
     buttonGitHub: "https://github.com/GeorgiPetrushev/react-basic-forms",
     buttonPage: "https://georgipetrushev.github.io/react-basic-forms/",
-  },
-  {
-    tittle: "Old portfolio3",
-    key:nanoid(),
-    description: "my first portfolio",
-    img: {},
-    technology: ["javascript", "html", "sass"],
-    buttonGitHub: "",
-    buttonPage: "",
   },
   {
     tittle: "Old portfolio",
