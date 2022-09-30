@@ -19,7 +19,7 @@ export const projectsArr = [
     
     tittle: "Take Notes",
     key: nanoid(),
-    description: "Website for taking notes. Be abel to add, delete or search for a note. Automatically generate date time base of your local time.Option for dark mode.Mobile friendly ",
+    description: "Website for taking notes. Be abel to add, delete or search for a note. Automatically generate date time base of your local time.Option for dark mode.Save the change you make in your local sore .Mobile friendly ",
     img: imgNote,
     alt: "Note Webpage",
     technology: ["javascript", "html", "sass" ,"react"],
