@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HomeStyle = styled.div`
 margin-top:2rem;
+padding: 1rem;
   .left-side {
     margin: auto;
     margin-bottom: 3rem;
