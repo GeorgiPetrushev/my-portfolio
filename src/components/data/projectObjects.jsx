@@ -3,8 +3,18 @@ import imgNote from "../../pictures/take-notes.jpg"
 import imgForm from "../../pictures/form.jpg"
 import imgBudgetTracker from "../../pictures/budget-tracker.jpg";
 import imgLogin from "../../pictures/login.jpg";
+import imgMovieWatchlist from "../../pictures/movie-watchlist.jpg";
 
 export const projectsArr = [
+  {
+    tittle: "Create Your Movie WatchList",
+    key: nanoid(),
+    description: "This website give you a option to create your own movie list and keep a tracking of the movie you watched or trying to watch. Take data from API and save it in your local store. have a option to add search add ot delete movie form watchlist section or watched section.Mobile friendly",
+    img: imgMovieWatchlist,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/watchlist-movie-tracher",
+    buttonPage: "https://GeorgiPetrushev.github.io/watchlist-movie-tracher",
+  },
   {
     tittle: "Budget Tracker",
     key:nanoid(),
@@ -43,15 +53,6 @@ export const projectsArr = [
     technology: ["javascript", "html", "sass","react"],
     buttonGitHub: "https://github.com/GeorgiPetrushev/log-in",
     buttonPage: "https://georgipetrushev.github.io/log-in",
-  },
-  {
-    tittle: "Old portfolio",
-    key: nanoid(),
-    description: "my first portfolio",
-    img: {},
-    technology: ["javascript", "html", "sass"],
-    buttonGitHub: "",
-    buttonPage: "",
   },
   {
     tittle: "Old portfolio",
