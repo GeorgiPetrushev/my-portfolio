@@ -15,10 +15,10 @@ const Home = () => {
         </div>
         <div className="right-side">
           <p>
-            I graduated technical university of Sofia major telecommunication in
-            2017. But I decided to continue in the software developer industry
-            in 2019, which I love very much. I am a highly motivated, dedicated
-            and ambitious software developer who is ready to fulfill any task
+            I graduated technical university of Sofia major telecommunication.
+            But I decided to continue in the software developer industry in
+            2019, which I love very much. I am a highly motivated, dedicated and
+            ambitious software developer who is ready to fulfill any task
             assigned to me. Thanks to my background, I gained problem-solving
             skills. I am very interested in new technologies and I am trying to
             grasp it. I am want to be a web developer and am constantly
@@ -27,11 +27,10 @@ const Home = () => {
             necessary.{" "}
           </p>
           <p>
-            I'm currently doing front development (Java Script |
-            React |) 👨🏼‍🤝‍👨🏻 I want to collaborate on open source
-            projects 🥅 Goals: Develop application projects useful to humanity
-            and to participate in these projects in the world. 💬 You
-            can ask me anything you want to know
+            I'm currently doing front development (Java Script | React |) 👨🏼‍🤝‍👨🏻 I
+            want to collaborate on open source projects 🥅 Goals: Develop
+            application projects useful to humanity and to participate in these
+            projects in the world. 💬 You can ask me anything you want to know
           </p>
         </div>
       </HomeStyle>

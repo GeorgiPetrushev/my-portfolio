@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
     *{
         box-sizing: border-box;
         margin: 0;
@@ -9,7 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background: linear-gradient(to right top,#65dfc9,#6cdbeb);
         width: 100%;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
        
     }
     p{
