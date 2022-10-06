@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background: linear-gradient(to right top,#65dfc9,#6cdbeb);
         width: 100%;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Abyssinica SIL', serif;
         font-size: 1.2rem;
        
     }
