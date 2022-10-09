@@ -5,6 +5,7 @@ import imgBudgetTracker from "../../pictures/budget-tracker.jpg";
 import imgLogin from "../../pictures/login.jpg";
 import imgMovieWatchlist from "../../pictures/movie-watchlist.jpg";
 import imgOldPortfolio from "../../pictures/old-portfolio.jpg";
+import imgFirebaseStore from "../../pictures/firebaseStore.jpg";
 
 export const projectsArr = [
   {
@@ -39,6 +40,18 @@ export const projectsArr = [
     buttonGitHub: "https://github.com/GeorgiPetrushev/take-notes-app",
     buttonPage: "https://georgipetrushev.github.io/take-notes-app/",
   },
+
+  {
+    tittle: "Using firebase to store data",
+    key: nanoid(),
+    description: "Storing data with firebase",
+    img: imgFirebaseStore,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub:
+      "https://github.com/GeorgiPetrushev/firebase-project-save-data",
+    buttonPage: "https://GeorgiPetrushev.github.io/firebase-project-save-data",
+  },
+
   {
     tittle: "Form",
     key: nanoid(),
@@ -62,7 +75,8 @@ export const projectsArr = [
   {
     tittle: "Old portfolio",
     key: nanoid(),
-    description: "You can see some of my beginning projects using HTML ,CSS, JavaScript, Bootstrap,Fetch API , Jquery , Jquery plugins and Chart.js. Mobile friendly.",
+    description:
+      "You can see some of my beginning projects using HTML ,CSS, JavaScript, Bootstrap,Fetch API , Jquery , Jquery plugins and Chart.js. Mobile friendly.",
     img: imgOldPortfolio,
     technology: ["javascript", "html", "sass"],
     buttonGitHub: "https://github.com/GeorgiPetrushev/portfolio-master",
