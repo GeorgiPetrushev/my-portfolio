@@ -6,8 +6,20 @@ import imgLogin from "../../pictures/login.jpg";
 import imgMovieWatchlist from "../../pictures/movie-watchlist.jpg";
 import imgOldPortfolio from "../../pictures/old-portfolio.jpg";
 import imgFirebaseStore from "../../pictures/firebaseStore.jpg";
+import imgGoogleFirebase from "../../pictures/google-firebase.jpg";
 
 export const projectsArr = [
+  {
+    tittle: " Sing in with Google or register manual ",
+    key: nanoid(),
+    description:
+      "Web side with option to Sing in with google or manual registration.Store all data on firebase.Checking for errors if something is incorrect.Not allow  access to dashboard if you are not sing in.",
+    img: imgGoogleFirebase,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/firebase-login-google",
+    buttonPage: "https://GeorgiPetrushev.github.io/firebase-login-google",
+  },
+
   {
     tittle: "Create Your Movie WatchList",
     key: nanoid(),
