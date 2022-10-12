@@ -7,6 +7,7 @@ import imgMovieWatchlist from "../../pictures/movie-watchlist.jpg";
 import imgOldPortfolio from "../../pictures/old-portfolio.jpg";
 import imgFirebaseStore from "../../pictures/firebaseStore.jpg";
 import imgGoogleFirebase from "../../pictures/google-firebase.jpg";
+import imgWeatherApp from "../../pictures/weather-app.jpg";
 
 export const projectsArr = [
   {
@@ -93,5 +94,16 @@ export const projectsArr = [
     technology: ["javascript", "html", "sass"],
     buttonGitHub: "https://github.com/GeorgiPetrushev/portfolio-master",
     buttonPage: "https://georgipetrushev.github.io/portfolio-master/",
+  },
+
+  {
+    tittle: "Weather app",
+    key: nanoid(),
+    description:
+      "Fetch api with axios. Using weather api. Searching fot weather by City location.",
+    img: imgWeatherApp,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/weather-check",
+    buttonPage: "https://georgipetrushev.github.io/weather-check/",
   },
 ];
