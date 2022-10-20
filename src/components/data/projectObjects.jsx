@@ -8,8 +8,20 @@ import imgOldPortfolio from "../../pictures/old-portfolio.jpg";
 import imgFirebaseStore from "../../pictures/firebaseStore.jpg";
 import imgGoogleFirebase from "../../pictures/google-firebase.jpg";
 import imgWeatherApp from "../../pictures/weather-app.jpg";
+import imgGameCatalog from "../../pictures/game-catalog.jpg";
 
 export const projectsArr = [
+  {
+    tittle: "Game World",
+    key: nanoid(),
+    description:
+      "Gaming Catalog. You can search for any kind of game using rawg.io API.When you start the website waiting the get the data from the API and then load  it on the page. Technology using to bill this project : React, Redux 8+, React Router v6 , Axios, React icons, Styled Component,Framer Motion ",
+    img: imgGameCatalog,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/game-catalog-redux",
+    buttonPage: "https://GeorgiPetrushev.github.io/game-catalog-redux",
+  },
+
   {
     tittle: " Sing in with Google or register manual ",
     key: nanoid(),

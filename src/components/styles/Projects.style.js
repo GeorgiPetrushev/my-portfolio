@@ -6,7 +6,8 @@ padding-bottom: 3rem;
 .project-tittle{
     font-size: 3rem;
     text-align: center;
-    margin: 5rem auto;
+    margin: 3rem auto;
+    
 }
 .container-projects{
     margin: auto 1rem;
@@ -29,8 +30,16 @@ padding-bottom: 3rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    
+    h1{
+        padding-bottom: 3rem;
+        max-height: 5rem;
+        overflow: hidden;
+    }
+    .project-img{
+        height: 15rem;
+    }
     p{
+        padding:1rem;
         font-size: 1rem;
     }
     .container-project-footer{

@@ -8,7 +8,7 @@ const Projects = () => {
   const listItems = projectsArr.map((number) => (
     <li key={number.key} className="project">
       <h1>{number.tittle}</h1>
-      <img src={number.img} alt={number.alt}></img>
+      <img src={number.img} alt={number.alt} className="project-img"></img>
       <p>{number.description}</p>
       <div className="container-project-footer">
         <div className="container-project-footer-in">
