@@ -1,4 +1,5 @@
-import React, { useState ,useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { HeaderStyle } from "../styles/Header.style";
 import { BiMenuAltRight } from "react-icons/bi";
@@ -27,14 +28,14 @@ const Header = () => {
     setSize({
       width: window.innerWidth,
       height: window.innerHeight,
-    })
-  },[])
+    });
+  }, []);
   console.log(size);
   useEffect(() => {
     if (size.width > 768 && menuOpen) {
       setMenuOpen(false);
     }
-    console.log(size.width)
+    console.log(size.width);
   }, [size.width, menuOpen]);
 
   const menuToggle = () => {
@@ -44,20 +45,33 @@ const Header = () => {
   return (
     <HeaderStyle>
       <div>
-      <h2>Georgi WebDev</h2>
+        <h2>Georgi WebDev</h2>
         <nav className={`${menuOpen && size.width < 768 ? "isMenu" : ""}`}>
-          <ul>
+          <StyleUl>
             <li>
-              <Link to="/my-portfolio/" onClick={menuToggle}>Home</Link>
+              <Link to="/my-portfolio/" onClick={menuToggle} className="link">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/my-portfolio/projects" onClick={menuToggle}>Projects</Link>
+              <Link
+                to="/my-portfolio/projects"
+                onClick={menuToggle}
+                className="link"
+              >
+                Projects
+              </Link>
             </li>
             <li>
-              <Link to="/my-portfolio/contact" onClick={menuToggle}>Contact me</Link>
+              <Link
+                to="/my-portfolio/contact"
+                onClick={menuToggle}
+                className="link"
+              >
+                Contact me
+              </Link>
             </li>
-          </ul>
-          
+          </StyleUl>
         </nav>
 
         <icon>
@@ -71,5 +85,17 @@ const Header = () => {
     </HeaderStyle>
   );
 };
+
+const StyleUl = styled.ul`
+  @media screen and (min-width: 768px) {
+    .link {
+      transition: 400ms;
+      padding: 1rem 1rem;
+      &:hover {
+        padding: 1rem 2rem;
+      }
+    }
+  }
+`;
 
 export default Header;
