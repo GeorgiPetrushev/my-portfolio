@@ -1,6 +1,6 @@
 import React from "react";
 import contactT from "../pictures/contact-pic.jpg";
-import { ContactMeStyle } from "./styles/ContactMeStyle";
+import { ContactMeStyle } from "../styles/ContactMeStyle";
 import {
   AiFillGithub,
   AiFillLinkedin,

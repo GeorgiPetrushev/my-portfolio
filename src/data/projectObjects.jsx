@@ -1,14 +1,14 @@
 import { nanoid } from "nanoid";
-import imgNote from "../../pictures/take-notes.jpg";
-import imgForm from "../../pictures/form.jpg";
-import imgBudgetTracker from "../../pictures/budget-tracker.jpg";
-import imgLogin from "../../pictures/login.jpg";
-import imgMovieWatchlist from "../../pictures/movie-watchlist.jpg";
-import imgOldPortfolio from "../../pictures/old-portfolio.jpg";
-import imgFirebaseStore from "../../pictures/firebaseStore.jpg";
-import imgGoogleFirebase from "../../pictures/google-firebase.jpg";
-import imgWeatherApp from "../../pictures/weather-app.jpg";
-import imgGameCatalog from "../../pictures/game-catalog.jpg";
+import imgNote from "../pictures/take-notes.jpg";
+import imgForm from "../pictures/form.jpg";
+import imgBudgetTracker from "../pictures/budget-tracker.jpg";
+import imgLogin from "../pictures/login.jpg";
+import imgMovieWatchlist from "../pictures/movie-watchlist.jpg";
+import imgOldPortfolio from "../pictures/old-portfolio.jpg";
+import imgFirebaseStore from "../pictures/firebaseStore.jpg";
+import imgGoogleFirebase from "../pictures/google-firebase.jpg";
+import imgWeatherApp from "../pictures/weather-app.jpg";
+import imgGameCatalog from "../pictures/game-catalog.jpg";
 
 export const projectsArr = [
   {

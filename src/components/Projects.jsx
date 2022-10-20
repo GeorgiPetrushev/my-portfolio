@@ -1,6 +1,6 @@
 import React from "react";
-import { ProjectsStyle } from "./styles/Projects.style";
-import { projectsArr } from "./data/projectObjects";
+import { ProjectsStyle } from "../styles/Projects.style";
+import { projectsArr } from "../data/projectObjects";
 import { AiFillGithub } from "react-icons/ai";
 import { IoMdPlanet } from "react-icons/io";
 

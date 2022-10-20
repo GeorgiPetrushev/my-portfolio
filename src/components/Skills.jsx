@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsStyle } from "./styles/Skills.style";
+import { SkillsStyle } from "../styles/Skills.style";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiBootstrap, DiSass, DiReact } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";

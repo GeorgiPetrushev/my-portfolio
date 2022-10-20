@@ -5,7 +5,7 @@ import ContactMe from "./components/ContactMe.jsx";
 import Footer from "./components/Footer.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
-import { GlobalStyle } from "./components/styles/Global";
+import { GlobalStyle } from "./styles/Global";
 
 function App() {
   return (

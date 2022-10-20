@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeStyle } from "./styles/Home.style";
+import { HomeStyle } from "../styles/Home.style";
 import profilePicture from "../pictures/profile-pic.jpg";
 
 import Skills from "./Skills";

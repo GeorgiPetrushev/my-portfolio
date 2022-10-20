@@ -1,6 +1,6 @@
 import React, { useState ,useEffect } from "react";
 import { Link } from "react-router-dom";
-import { HeaderStyle } from "./styles/Header.style";
+import { HeaderStyle } from "../styles/Header.style";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
