@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.js": "/my-portfolio/static/js/main.555d4b1a.js",
+    "main.js": "/my-portfolio/static/js/main.5351831d.js",
     "static/media/take-notes.jpg": "/my-portfolio/static/media/take-notes.3acc32ef4ad9f70548ef.jpg",
     "static/media/game-catalog.jpg": "/my-portfolio/static/media/game-catalog.b8d0d7c8fb3aa72595b3.jpg",
     "static/media/movie-watchlist.jpg": "/my-portfolio/static/media/movie-watchlist.f4d845b488fbf92121c5.jpg",
+    "static/media/tweeter.jpg": "/my-portfolio/static/media/tweeter.82a17443329b454eb49c.jpg",
     "static/media/contact-pic.jpg": "/my-portfolio/static/media/contact-pic.f457aba7f126b4c26bcf.jpg",
     "static/media/old-portfolio.jpg": "/my-portfolio/static/media/old-portfolio.0e484bbcbb793c3d967e.jpg",
     "static/media/profile-pic.jpg": "/my-portfolio/static/media/profile-pic.50cd7b06800da56333ed.jpg",
@@ -14,9 +15,9 @@
     "static/media/weather-app.jpg": "/my-portfolio/static/media/weather-app.244ba67a176b6f5abfa1.jpg",
     "static/media/google-firebase.jpg": "/my-portfolio/static/media/google-firebase.9529ebf20fc52482a197.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.555d4b1a.js.map": "/my-portfolio/static/js/main.555d4b1a.js.map"
+    "main.5351831d.js.map": "/my-portfolio/static/js/main.5351831d.js.map"
   },
   "entrypoints": [
-    "static/js/main.555d4b1a.js"
+    "static/js/main.5351831d.js"
   ]
 }
