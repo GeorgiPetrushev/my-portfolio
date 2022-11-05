@@ -32,7 +32,7 @@ export const projectsArr = [
     technology: ["javascript", "html", "sass"],
     buttonGitHub:
       "https://github.com/GeorgiPetrushev/typescript-firebase-user-login-app",
-    buttonPage: "https://georgipetrushev.github.io/",
+    buttonPage: "https://GeorgiPetrushev.github.io/typescript-firebase-user-login-app",
   },
 
   {
