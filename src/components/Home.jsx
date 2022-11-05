@@ -21,7 +21,7 @@ const Home = () => {
           Udemy. Understanding that coding is an infinite cycle constantly
           evolving as technology progresses. I look forward to supporting my
           company to code with innovation. In each course, we learn to develope
-          different sets of technical skills, such as HTML, CSS, JavaScript,
+          different sets of technical skills, such as HTML, CSS, JavaScript, React, Redux, TypeScript, Firebase,
           jQuery, Bootstrap, etc. </p><p>As
           a professional and a person with much humility I’m aware that
           technology is constantly evolving so I am proactive in educating

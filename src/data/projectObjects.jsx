@@ -9,17 +9,41 @@ import imgFirebaseStore from "../pictures/firebaseStore.jpg";
 import imgGoogleFirebase from "../pictures/google-firebase.jpg";
 import imgWeatherApp from "../pictures/weather-app.jpg";
 import imgGameCatalog from "../pictures/game-catalog.jpg";
+import imtTweeter from "../pictures/tweeter.jpg";
 
 export const projectsArr = [
   {
     tittle: "Game World",
     key: nanoid(),
     description:
-      "Gaming Catalog. You can search for any kind of game using rawg.io API.When you start the website waiting the get the data from the API and then load  it on the page. Technology using to bill this project : React, Redux 8+, React Router v6 , Axios, React icons, Styled Component,Framer Motion ",
+      "Gaming Catalog. You can search for any kind of game using 'rawg.io' API.When you start the website waiting the get the data from the API and then load  it on the page. Technology using to bill this project : React, Redux 8+, React Router v6 , Axios, React icons, Styled Component,Framer Motion ",
     img: imgGameCatalog,
     technology: ["javascript", "html", "sass"],
     buttonGitHub: "https://github.com/GeorgiPetrushev/game-catalog-redux",
     buttonPage: "https://GeorgiPetrushev.github.io/game-catalog-redux",
+  },
+
+  {
+    tittle: "Mini Tweeter",
+    key: nanoid(),
+    description:
+      "After Log in with you google account you can add and like tweets.Technology using to bill this project : React, Firebase, Typescript ",
+    img: imtTweeter,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub:
+      "https://github.com/GeorgiPetrushev/typescript-firebase-user-login-app",
+    buttonPage: "https://georgipetrushev.github.io/",
+  },
+
+  {
+    tittle: "Create Your Movie WatchList",
+    key: nanoid(),
+    description:
+      "This website give you a option to create your own movie list and keep a tracking of the movie you watched or trying to watch. Take data from API and save it in your local store. have a option to add search add ot delete movie form watchlist section or watched section.Mobile friendly",
+    img: imgMovieWatchlist,
+    technology: ["javascript", "html", "sass"],
+    buttonGitHub: "https://github.com/GeorgiPetrushev/watchlist-movie-tracher",
+    buttonPage: "https://GeorgiPetrushev.github.io/watchlist-movie-tracher",
   },
 
   {
@@ -33,16 +57,6 @@ export const projectsArr = [
     buttonPage: "https://GeorgiPetrushev.github.io/firebase-login-google",
   },
 
-  {
-    tittle: "Create Your Movie WatchList",
-    key: nanoid(),
-    description:
-      "This website give you a option to create your own movie list and keep a tracking of the movie you watched or trying to watch. Take data from API and save it in your local store. have a option to add search add ot delete movie form watchlist section or watched section.Mobile friendly",
-    img: imgMovieWatchlist,
-    technology: ["javascript", "html", "sass"],
-    buttonGitHub: "https://github.com/GeorgiPetrushev/watchlist-movie-tracher",
-    buttonPage: "https://GeorgiPetrushev.github.io/watchlist-movie-tracher",
-  },
   {
     tittle: "Budget Tracker",
     key: nanoid(),

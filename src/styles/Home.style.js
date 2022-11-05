@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const HomeStyle = styled.div`
 margin-top:2rem;
 padding: 1rem;
+
   .left-side {
     margin: auto;
     margin-bottom: 3rem;
-    width: 50%;
     padding: 0.2rem;
     text-align: center;
     img {
@@ -31,12 +31,12 @@ padding: 1rem;
     }
   }
   @media screen and (min-width: 768px) {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     margin-top: 0rem;
     min-height: 60vh;
     .left-side {
       margin: auto;
-      width: 50%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -44,7 +44,6 @@ padding: 1rem;
 
     .right-side {
       margin: auto;
-      width: 40%;
       p {
         width: 90%;
         margin: auto;
