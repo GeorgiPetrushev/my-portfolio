@@ -27,7 +27,8 @@ export const projectsArr = [
     tittle: "Mini Tweeter",
     key: nanoid(),
     description:
-      "After Log in with you google account you can add and like tweets.Technology using to bill this project : React, TypeScript, Redux 8+, React Router v6 , Styled Component ",
+    
+      "After Log in with you  google account you can add and like tweets.Technology using to bill this project : React, TypeScript, Redux 8+, React Router v6 , Styled Component ",
     img: imtTweeter,
     technology: ["javascript", "html", "sass"],
     buttonGitHub:
