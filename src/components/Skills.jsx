@@ -8,7 +8,7 @@ import { SiJavascript, SiRedux } from "react-icons/si";
 const Skills = () => {
   return (
     <SkillsStyle>
-      <div className="tittle">My Skills</div>
+      <div className="tittle">My Skills </div>
       <div className="icon-container">
         <h3 className="html">
           <AiFillHtml5 />
